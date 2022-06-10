@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/GC.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylesrana.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/script.js"></script> 
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/wow.js"></script>
+	 <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+	</style>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	</head>
+<body class="index-4">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="grid_1">
+					<img style="max-width:70px; margin-right: -10px;margin-top:0px;"
+										 src="images/logo.png"> 
+					</div>
+					<h1><a href="index.html">GRAPHIC CAFE</a><span>let the world hear us!</span></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a>
+								<!--<ul>
+									<li><a href="#">Lorem ipsum</a></li>
+									<li><a href="#">Lorem ipsum</a>
+										<ul>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+											<li><a href="#">Lorem ipsum</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Lorem ipsum</a></li>
+								</ul>-->
+							</li>
+							<li><a href="index-1.html">About</a></li>
+							<li><a href="index-3.html">Services</a></li>
+							<li><a href="https://nitap-studentgallery.000webhostapp.com/">Gallery</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<div class = "contactform">
+    <h2>Contact Us Here: </h2>
+
+
+    <form>
+
+  <div class="form-group">
+    <label for="name" class="labelgc">Your Name : </label>
+    <input type="text" name="" value="" class="form-control" placeholder="Your Name Mate">
+  </div>
+
+    <div class="form-row">
+      <div class="col">
+        <label class="labelgc" for="" > Your Year and Section : </label>
+        <input type="text" class="form-control" placeholder="Year and Section">
+      </div>
+      <div class="col">
+        <label for="" class="labelgc"> Your Branch :</label>
+        <input type="text" class="form-control" placeholder="Your Branch">
+      </div>
+    </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="labelgc">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please provide your e-mail bud">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+   <label for="exampleFormControlTextarea1" class="labelgc">Your Message for us :</label>
+   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your query or message for us here"></textarea>
+ </div>
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Are you a student of NIT Andhra ?</label>
+  </div>
+  <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+</form>
+</div>
+
+<!--=======footer=================================-->
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h2><span>Follow Us</span></h2>
+						<a href="mailto:graphic.cafe@gmail.com" class="btn bd-ra"><span class="fa fa-envelope-o"></span></a>
+						<a href="tel:+918089871955" class="btn bd-ra"><span class="fa fa-phone"></span></a>
+				<pre>© <span id="copyright-year"></span> @GC |  Privacy Policy</pre>		
+			</div>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+</body>
+</html>
